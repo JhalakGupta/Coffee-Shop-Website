@@ -1,0 +1,82 @@
+body{
+	background-color:white;
+	color:black;
+}
+header { background-color: #ccccb3;
+       color: #663300;
+	   /*background-image: url(coffeeImg.gif);*/	 
+	   background-position: right;
+	   background-repeat: no-repeat;
+	   text-align: center;
+	   height: 70px;
+	   padding-top: 30px;  
+}
+
+pre
+{
+  margin-left : 500;
+}
+
+h1 {margin-bottom: 0; 
+} 
+nav { background-color:  #664400 ; 
+}
+nav a { text-decoration: none; }
+/*a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}*/
+
+h2 { color: #664400;
+	font-size:45px
+}
+h3 { color: #EAE70F;
+	font-size:45px;
+	text-align:center
+}
+h4 { color: white;
+	font-size:30px;
+}
+.coffeeHouse { color: black; 
+          font-weight: bold;
+		  font-size:15px;
+}	
+.fontSize{
+	font-size:200%;
+	padding: 1em;
+}
+.fontSize1{
+	font-size:120%;
+	 font-weight: bold;
+	padding: 1em;
+}
+. fontSize2{
+font-size:50px;
+
+}
+
+
+.button-group button{
+    background-color: white; /* Green */
+    border: 1px solid black;
+    color: #664400;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+	font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ccccb3;
+	/*font-weight: bold; */
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
